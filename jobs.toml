@@ -1,0 +1,7 @@
+[goltar]
+database="goltar"
+name = "test"
+
+[[searches]]
+ands=["asthma", "copd"]
+startDate=[2001]
