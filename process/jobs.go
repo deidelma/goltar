@@ -25,6 +25,11 @@ type Search struct {
 	endDate    string
 }
 
+// Dates returns the startDate and endDate of the search
+func (search *Search) Dates() (string, string) {
+	return search.startDate, search.endDate
+}
+
 // Job encapsulates the data for a pubmed job.
 // Currently only supports searches
 //
@@ -39,6 +44,11 @@ type Job struct {
 // Name returns the name associated with the job.
 func (job *Job) Name() string {
 	return job.name
+}
+
+// Searches returns the searches associated with the Job.
+func (job *Job) Searches() []Search {
+	return job.searches
 }
 
 func tomlToJob(data []byte) (Job, error) {
@@ -63,7 +73,40 @@ func tomlToJob(data []byte) (Job, error) {
 		log.Println("No searches provided in jobs file.")
 		return value, nil
 	}
-	sarray := ss.(*[]go-toml.Tree)
+	searches := []Search{}
+	sarray := ss.([]*toml.Tree)
+	for _, tt := range sarray {
+		ands := tt.GetArray("ands")
+		if ands == nil {
+			log.Println("Missing and clause in search")
+			return value, nil
+		}
+		startDate := tt.Get("startDate")
+		if startDate == nil {
+			log.Println("Missing start date in search")
+			return value, nil
+		}
+		s := Search{}
+		s.ands = ands.([]string)
+		s.startDate = startDate.(string)
+		ors := tt.GetArray("ors")
+		if ors != nil {
+			s.ors = ors.([]string)
+		}
+		authors := tt.GetArray("authors")
+		if authors != nil {
+			s.authors = authors.([]string)
+		}
+		endDate := tt.Get("endDate")
+		if endDate != nil {
+			s.endDate = endDate.(string)
+		}
+		searches = append(searches, s)
+
+		value.name = name.(string)
+		value.database = db.(string)
+		value.searches = searches
+	}
 
 	// searches := []Search{}
 

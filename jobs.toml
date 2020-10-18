@@ -4,4 +4,4 @@ name = "test"
 
 [[searches]]
 ands=["asthma", "copd"]
-startDate=[2001]
+startDate="2001" # must be a string
