@@ -9,52 +9,79 @@ import (
 	"github.com/pelletier/go-toml"
 )
 
+// Search encapsulates data for a single Pubmed Search
+//
+// collection is the name of the MongoDB collection in use
+// ands Terms to be joined by AND
+// ors terms to be joined by OR
+// authors list of authors in form ["hamid q", "o'byrne p"]
+// years list of years to conduct the search [2001, 2002]
+// if there are 3 entries and the last entry is a 1,
+// treat the first two entries as an inclusive range [2001, 2010, 1]
+// TODO: allow default collection in the header, handle ranges of years
+type Search struct {
+	Collection string
+	Ands       []string
+	Ors        []string
+	Authors    []string
+	Years      []int64
+}
+
 // Job encapsulates the data for a pubmed job.
 // Currently only supports searches
 //
 // database is the name of the MongoDB database in use
 //
 type Job struct {
-	searches []Search
-	database string
-	name     string
+	Searches []Search
+	Database string
+	Name     string
 }
 
-// Name returns the name associated with the job.
-func (job *Job) Name() string {
-	return job.name
+// processSearch extracts the job information from a single
+// element in a toml jobs file.
+// Returns error if missing date or and terms information
+func processSearch(t *toml.Tree) (Search, error) {
+	result := Search{}
+	ands := t.GetArray("ands")
+	if ands == nil {
+		return result, errors.New("missing AND terms")
+	}
+	result.Ands = ands.([]string)
+	dateItems := t.GetArray("years").([]string)
+	if dateItems == nil {
+		return result, errors.New("missing years list")
+	}
+
+	return result, nil
 }
 
-// Searches returns the searches associated with the Job.
-func (job *Job) Searches() []Search {
-	return job.searches
-}
-
+// getSearches parses the job data looking for the key values
+//
+// ands -- an array of terms to be joined by AND [required]
+// ors -- an array of terms to be joined by OR
+// authors -- an array of author names joined by AND
+// years -- an array of years [required]
 func getSearches(searchTree []*toml.Tree) ([]Search, error) {
 	result := []Search{}
 	for _, aTree := range searchTree {
+		s := Search{}
 		ands := aTree.GetArray("ands")
 		if ands == nil {
 			return result, errors.New("missing AND clause in search")
 		}
-		startDate := aTree.Get("startDate")
-		if startDate == nil {
-			return result, errors.New("missing start date in search")
+		s.Ands = ands.([]string)
+
+		years := aTree.GetArray("years")
+		if years == nil {
+			return result, errors.New("missing years specification")
 		}
-		s := Search{}
-		s.ands = ands.([]string)
-		s.startDate = startDate.(string)
-		ors := aTree.GetArray("ors")
-		if ors != nil {
-			s.ors = ors.([]string)
-		}
+
+		s.Years = years.([]int64)
+
 		authors := aTree.GetArray("authors")
 		if authors != nil {
-			s.authors = authors.([]string)
-		}
-		endDate := aTree.Get("endDate")
-		if endDate != nil {
-			s.endDate = endDate.(string)
+			s.Authors = authors.([]string)
 		}
 		result = append(result, s)
 	}
@@ -86,9 +113,9 @@ func tomlToJob(data []byte) (Job, error) {
 	if err != nil {
 		return value, err
 	}
-	value.name = name.(string)
-	value.database = db.(string)
-	value.searches = searches
+	value.Name = name.(string)
+	value.Database = db.(string)
+	value.Searches = searches
 	return value, nil
 }
 

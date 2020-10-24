@@ -27,10 +27,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("Read error:%v\n", err)
 	}
-	fmt.Printf("Read job named %s\n", job.Name())
+	fmt.Printf("Read job named %s\n", job.Name)
 
-	for _, search := range job.Searches() {
-		startDate, _ := search.Dates()
-		fmt.Printf("The year is %s\n", startDate)
+	for _, search := range job.Searches {
+		startDate := search.Years[0]
+		fmt.Printf("The first search term is: %s\n", search.Ands[0])
+		fmt.Printf("The year is %d\n", startDate)
 	}
 }
