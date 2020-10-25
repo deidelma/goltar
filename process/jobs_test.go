@@ -89,6 +89,96 @@ func TestMultipleSearch(t *testing.T) {
 	}
 }
 
+var data3 = `
+[goltar]
+name="david"
+database="goltar"
+
+[[searches]]
+ands = ["asthma", "copd"]
+years = "2001-2010"
+`
+
+func TestYearRange(t *testing.T) {
+	job, err := tomlToJob([]byte(data3))
+	if err != nil {
+		t.Error("Unable to parse data3")
+	}
+	s := job.Searches[0]
+	if len(s.Years) != 10 {
+		t.Errorf("Wrong number of years.  Expected 10, got %d", len(s.Years))
+	}
+}
+
+func TestParseYears(t *testing.T) {
+	yrs, err := parseYears("2001")
+	if err != nil {
+		t.Errorf("Parser failure: %s", "2001")
+	}
+	if len(yrs) != 1 {
+		t.Errorf("Expected 1 year, got %d", len(yrs))
+	}
+
+	yrs, err = parseYears("2001-2003")
+	if err != nil {
+		t.Errorf("Parser failure: %s", "2001-2003")
+	}
+	if len(yrs) != 3 {
+		t.Errorf("Expected 3 years, got %d", len(yrs))
+	}
+
+	yrs, err = parseYears("bob")
+	if err == nil {
+		t.Errorf("Failed to detect illegal year")
+	}
+
+	yrs, err = parseYears("2000-")
+	if err == nil {
+		t.Errorf("Failed to detect illegal value for year")
+	}
+}
+
+func TestCollection(t *testing.T) {
+	job, _ := tomlToJob([]byte(data3))
+	if job.Collection != job.Name {
+		t.Error("Failed to assign default value to master collection")
+	}
+	s := job.Searches[0]
+	if s.Collection != job.Name {
+		t.Error("Failed to assign default collection to search")
+	}
+}
+
+var data4 = `
+[goltar]
+name="bob"
+collection="asthma"
+database = "goltar"
+[[searches]]
+ands = ["asthma"]
+years=[2001]
+
+[[searches]]
+ands=["copd"]
+years="2005-2007"
+collection="copd"
+`
+
+func TestCollectionAssignment(t *testing.T) {
+	job, _ := tomlToJob([]byte(data4))
+	if job.Collection != "asthma" {
+		t.Error("Failed to assign default value to master collection")
+	}
+	s := job.Searches[0]
+	if s.Collection != job.Collection {
+		t.Error("Failed to assign default collection to search")
+	}
+	s = job.Searches[1]
+	if s.Collection != "copd" {
+		t.Errorf("Expected 'copd', recevied '%s'", s.Collection)
+	}
+}
+
 var badData1 = `
 [zoltar]
 name="david"
