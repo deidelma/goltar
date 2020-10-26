@@ -28,6 +28,59 @@ type Search struct {
 	Years      []int64
 }
 
+// itemsToString concatenates strings using the provided conjunction
+// suffix is then appended to each item before concatenation
+// replaces spaces by '+'
+// returns "" if items is empty or nil
+func itemsToStringSuffix(items []string, conjunction string, suffix string) string {
+	if items == nil || len(items) == 0 {
+		return ""
+	}
+	result := []string{}
+	first := fmt.Sprintf("%s%s", strings.ReplaceAll(items[0], " ", "+"), suffix)
+	result = append(result, first)
+	for _, item := range items[1:] {
+		result = append(result, conjunction)
+		result = append(result, fmt.Sprintf("%s%s", strings.ReplaceAll(item, " ", "+"), suffix))
+	}
+	return strings.Join(result, "+")
+
+}
+
+// itemsToString concatenates strings using the provided conjunction
+// without a suffix (suffix == "")
+// replaces space by '+'
+// returns "" if items is empty or nil
+func itemsToString(items []string, conjuction string) string {
+	return itemsToStringSuffix(items, conjuction, "")
+}
+
+// TermString returns strings suitable for use in a Pubmed
+// search using the NLM entrez system.
+//
+// typical term string:
+//	asthma+AND+leukotrienes+OR+interleukin-4+AND+o'byrne+p[Au]+2003[pdat]
+// 	returns one string for each year in Search.Years
+func (search *Search) TermString() []string {
+	result := []string{}
+	for _, year := range search.Years {
+		andSegment := itemsToString(search.Ands, "AND")
+		orSegment := itemsToString(search.Ors, "OR")
+		authorSegment := itemsToStringSuffix(search.Authors, "AND", "[Au]")
+		items := []string{}
+		items = append(items, andSegment)
+		if orSegment != "" {
+			items = append(items, fmt.Sprintf("+OR+%s", orSegment))
+		}
+		if authorSegment != "" {
+			items = append(items, fmt.Sprintf("+AND+%s", authorSegment))
+		}
+		items = append(items, fmt.Sprintf("+AND+%d[pdat]", year))
+		result = append(result, strings.Join(items, ""))
+	}
+	return result
+}
+
 // Job encapsulates the data for a pubmed job.
 // Currently only supports searches
 //

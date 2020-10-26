@@ -207,3 +207,64 @@ func TestBadInputs(t *testing.T) {
 		t.Error("Failed to detect invalid file: badData2")
 	}
 }
+
+func TestItemsToString(t *testing.T) {
+	sample := []string{"asthma", "copd", "sam smith"}
+	s := itemsToString(sample, "AND")
+	if s != "asthma+AND+copd+AND+sam+smith" {
+		t.Errorf("Expected:'asthma+AND+copd+AND+sam+smith', received '%s'", s)
+	}
+	sample = []string{"o'byrne p", "martin jg"}
+	s = itemsToString(sample, "OR")
+	if s != "o'byrne+p+OR+martin+jg" {
+		t.Errorf("Expected:'o'byrne+p+OR+martin+j', received '%s'", s)
+	}
+	sample = []string{"asthma"}
+	s = itemsToString(sample, "AND")
+	if s != "asthma" {
+		t.Errorf("Expected 'asthma', received:'%s'", s)
+	}
+	sample = []string{}
+	s = itemsToString(sample, "AND")
+	if s != "" {
+		t.Error("Mishandled empty array")
+	}
+	s = itemsToString(nil, "AND")
+	if s != "" {
+		t.Error("Mishandled null array")
+	}
+}
+
+func TestSingleTermString(t *testing.T) {
+	s := Search{
+		Ands:       []string{"asthma"},
+		Ors:        []string{"copd"},
+		Authors:    nil,
+		Years:      []int64{2001},
+		Collection: "",
+	}
+	terms := s.TermString()
+	if len(terms) != 1 {
+		t.Error("Wrong number of term strings, expected 1")
+	}
+	if terms[0] != "asthma+OR+copd+AND+2001[pdat]" {
+		t.Errorf("Term string failed:%s", terms)
+	}
+}
+
+func TestMultipleTermString(t *testing.T) {
+	s := Search{
+		Ands:       []string{"asthma"},
+		Ors:        []string{"copd", "pulmonary fibrosis"},
+		Authors:    []string{"martin jg", "o'byrne p", "hamid q"},
+		Years:      []int64{2001, 2002, 2003},
+		Collection: "",
+	}
+	terms := s.TermString()
+	if len(terms) != 3 {
+		t.Error("Wrong number of term strings, expected 3")
+	}
+	if terms[2] != "asthma+OR+copd+OR+pulmonary+fibrosis+AND+martin+jg[Au]+AND+o'byrne+p[Au]+AND+hamid+q[Au]+AND+2003[pdat]" {
+		t.Errorf("Term string failed:%s", terms)
+	}
+}
