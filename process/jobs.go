@@ -11,6 +11,8 @@ import (
 	"github.com/pelletier/go-toml"
 )
 
+// TODO: Rewrite Search.TermString using strings.Builder
+
 // Search encapsulates data for a single Pubmed Search
 //
 // collection is the name of the MongoDB collection in use
