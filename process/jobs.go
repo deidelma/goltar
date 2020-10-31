@@ -57,11 +57,15 @@ func itemsToString(items []string, conjuction string) string {
 	return itemsToStringSuffix(items, conjuction, "")
 }
 
+func cleanString(s string) string {
+	return strings.ReplaceAll(s, "'", "%27")
+}
+
 // TermString returns strings suitable for use in a Pubmed
 // search using the NLM entrez system.
 //
 // typical term string:
-//	asthma+AND+leukotrienes+OR+interleukin-4+AND+o'byrne+p[Au]+2003[pdat]
+//	asthma+AND+leukotrienes+OR+interleukin-4+AND+o%27byrne+p[Au]+2003[pdat]
 // 	returns one string for each year in Search.Years
 func (search *Search) TermString() []string {
 	result := []string{}
@@ -78,7 +82,9 @@ func (search *Search) TermString() []string {
 			items = append(items, fmt.Sprintf("+AND+%s", authorSegment))
 		}
 		items = append(items, fmt.Sprintf("+AND+%d[pdat]", year))
-		result = append(result, strings.Join(items, ""))
+		s := cleanString(strings.Join(items, ""))
+		// result = append(result, strings.Join(items, ""))
+		result = append(result, s)
 	}
 	return result
 }

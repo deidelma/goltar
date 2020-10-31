@@ -264,7 +264,7 @@ func TestMultipleTermString(t *testing.T) {
 	if len(terms) != 3 {
 		t.Error("Wrong number of term strings, expected 3")
 	}
-	if terms[2] != "asthma+OR+copd+OR+pulmonary+fibrosis+AND+martin+jg[Au]+AND+o'byrne+p[Au]+AND+hamid+q[Au]+AND+2003[pdat]" {
+	if terms[2] != "asthma+OR+copd+OR+pulmonary+fibrosis+AND+martin+jg[Au]+AND+o\\'byrne+p[Au]+AND+hamid+q[Au]+AND+2003[pdat]" {
 		t.Errorf("Term string failed:%s", terms)
 	}
 }
