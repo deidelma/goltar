@@ -60,7 +60,25 @@ func TestFetchJob(t *testing.T) {
 	}
 	log.Printf("Received %d records", len(recs))
 }
-
+func TestFetchJobSync(t *testing.T) {
+	job, _ := jobs.ReadJobString(bigJobToml)
+	search := job.Searches[0]
+	terms := search.TermString()[0]
+	q, err := ESearch(terms)
+	if err != nil {
+		t.Errorf("Error during search:[%v]", err)
+	}
+	log.Printf("Downloading %d records", q.Count)
+	data, err := EFetchSync(q)
+	if err != nil {
+		t.Errorf("Error fetching data:[%v]", err)
+	}
+	recs := parseXML(string(data), "PubmedArticle")
+	if len(recs) != int(q.Count-5) {
+		t.Errorf("Expected %d, received %d", q.Count-5, len(recs))
+	}
+	log.Printf("Received %d records", len(recs))
+}
 func TestGenerateSlices(t *testing.T) {
 	max := 4227
 	size := 500

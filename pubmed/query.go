@@ -118,6 +118,8 @@ func generateSlices(max int, sliceSize int) []int {
 }
 
 // EFetchSync returns the results of call efetch.cgi synchronously
+// This is intended to be used for testing purposes only
+// and not for production
 func EFetchSync(q Query) (string, error) {
 	result := strings.Builder{}
 	if q.Count == 0 {
@@ -127,23 +129,15 @@ func EFetchSync(q Query) (string, error) {
 
 	// var wg sync.WaitGroup
 	for i, slice := range sliceStarts {
-		// wg.Add(1)
-		// go func(q Query, slice int, sliceSize int, i int) {
 		xml, err := fetchSlice(q, slice, sliceSize)
 		if err != nil {
 			log.Fatalf("Unable to download slice: %v", err)
 		}
-		// log.Printf("%d) Adding data of %d bytes to buffer", i, len(xml))
 		result.WriteString(string(xml))
 		recs := parseXML(string(xml), "PubmedArticle")
 		log.Printf("%d) found %d recs after fetchSlice", i, len(recs))
-		// if len(recs) < sliceSize {
-		// 	log.Fatalln(string(xml))
-		// }
-		// wg.Done()
-		// }(q, slice, sliceSize, i)
+		time.Sleep(1)
 	}
-	// wg.Wait()
 	log.Printf("Downloaded %d bytes of xml", len(result.String()))
 	return result.String(), nil
 }
