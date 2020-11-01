@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	jobs "github.com/deidelma/goltar/process"
+	jobs "github.com/deidelma/goltar/jobs"
 )
 
 func main() {
