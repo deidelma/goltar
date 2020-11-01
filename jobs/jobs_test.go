@@ -1,6 +1,8 @@
 package jobs
 
-import "testing"
+import (
+	"testing"
+)
 
 var data1 = `
 [goltar]

@@ -11,8 +11,6 @@ import (
 	"github.com/pelletier/go-toml"
 )
 
-// TODO: Rewrite Search.TermString using strings.Builder
-
 // Search encapsulates data for a single Pubmed Search
 //
 // collection is the name of the MongoDB collection in use
@@ -57,8 +55,11 @@ func itemsToString(items []string, conjuction string) string {
 	return itemsToStringSuffix(items, conjuction, "")
 }
 
-func cleanString(s string) string {
-	return strings.ReplaceAll(s, "'", "%27")
+// CleanString ensures that terms are properly URL encoded
+func CleanString(s string) string {
+	result := strings.ReplaceAll(s, "'", "%27")
+	result = strings.ReplaceAll(s, " ", "+")
+	return result
 }
 
 // TermString returns strings suitable for use in a Pubmed
@@ -82,7 +83,7 @@ func (search *Search) TermString() []string {
 			items = append(items, fmt.Sprintf("+AND+%s", authorSegment))
 		}
 		items = append(items, fmt.Sprintf("+AND+%d[pdat]", year))
-		s := cleanString(strings.Join(items, ""))
+		s := CleanString(strings.Join(items, ""))
 		// result = append(result, strings.Join(items, ""))
 		result = append(result, s)
 	}
