@@ -103,3 +103,28 @@ func TestParseXML(t *testing.T) {
 		t.Errorf("Expected 200, receieved %d", len(recs))
 	}
 }
+
+func TestSearchReturnsCorrectCount(t *testing.T) {
+	terms := jobs.CleanString("asthma AND leukotrienes AND o'byrne p[au]")
+	dbg.Printf("Terms:%s", terms)
+	q, err := ESearch(terms)
+	if err != nil {
+		t.Errorf("Failed to complete search: <%v>", err)
+	}
+	if q.Count != 37 {
+		t.Errorf("Expected 37, received %d", q.Count)
+	}
+}
+
+func TestFetchReturnsCorrectNumberOfRecords(t *testing.T) {
+	terms := jobs.CleanString("asthma AND leukotrienes AND o'byrne p[au]")
+	q, _ := ESearch(terms)
+	recs, err := EFetchRecs(q)
+	if err != nil {
+		t.Errorf("Failed to fetch records: <%v>", err)
+	}
+	if len(recs) != 37 {
+		t.Errorf("Expected 37 recs, received %d", len(recs))
+	}
+
+}
