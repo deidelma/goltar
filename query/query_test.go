@@ -1,6 +1,7 @@
 package pubmed
 
 import (
+	"io/ioutil"
 	"log"
 	"testing"
 
@@ -88,5 +89,17 @@ func TestGenerateSlices(t *testing.T) {
 	dbg.Start()
 	for i, n := range slices {
 		dbg.Printf("%d: %d => %d", i, n, n+size)
+	}
+}
+
+func TestParseXML(t *testing.T) {
+	file := "testdata/asthma200.xml"
+	data, err := ioutil.ReadFile(file)
+	if err != nil {
+		t.Fatalf("Unable to find data:%s", file)
+	}
+	recs := parseXML(string(data), "PubmedArticle")
+	if len(recs) != 200 {
+		t.Errorf("Expected 200, receieved %d", len(recs))
 	}
 }
