@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	jobs "github.com/deidelma/goltar/process"
+	jobs "github.com/deidelma/goltar/jobs"
 )
 
 const jobToml = `
