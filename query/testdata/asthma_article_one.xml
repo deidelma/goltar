@@ -1,0 +1,148 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" IndexingMethod="Curated" Owner="NLM">
+        <PMID Version="1">32374540</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>05</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>05</Month>
+            <Day>08</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1660-9379</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>16</Volume>
+                    <Issue>692</Issue>
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>May</Month>
+                        <Day>06</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Revue medicale suisse</Title>
+                <ISOAbbreviation>Rev Med Suisse</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Asthma and COPD management during the COVID-19 pandemic].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>933-938</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Numerous patients with asthma or COPD are likely to be infected with SARS-CoV-2 virus. Although data is limited, patients with severe and/or uncontrolled asthma and those with COPD appear to be at increased risk of a more severe course of COVID-19 infection. Usual recommendations for management of asthma and COPD remain valid despite the ongoing epidemic. However, lung function testing and nebulisers should be performed with caution during the COVID-19 pandemic due to a potential risk of virus aerosolisation and contagion during the procedure. Particular care must be taken to identify and protect patients who are particularly vulnerable to COVID-19 infection. Asthma and COPD treatments should be pursued and adapted to ensure optimal control of the lung disease throughout the epidemic, thus reducing the risk of severe COVID-19 disease.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Daccord</LastName>
+                    <ForeName>Cécile</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Service de pneumologie, Département de médecine, CHUV, 1011 Lausanne.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Touilloux</LastName>
+                    <ForeName>Brice</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Service de pneumologie, Département de médecine, CHUV, 1011 Lausanne.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Von Garnier</LastName>
+                    <ForeName>Christophe</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Service de pneumologie, Département de médecine, CHUV, 1011 Lausanne.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>fre</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle>Prise en charge de l’asthme et de la BPCO en situation de pandémie de COVID-19.</VernacularTitle>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Rev Med Suisse</MedlineTA>
+            <NlmUniqueID>101219148</NlmUniqueID>
+            <ISSNLinking>1660-9379</ISSNLinking>
+        </MedlineJournalInfo>
+        <SupplMeshList>
+            <SupplMeshName Type="Disease" UI="C000657245">COVID-19</SupplMeshName>
+            <SupplMeshName Type="Organism" UI="C000656484">severe acute respiratory syndrome coronavirus 2</SupplMeshName>
+        </SupplMeshList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D001249" MajorTopicYN="Y">Asthma</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000073640" MajorTopicYN="N">Betacoronavirus</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018352" MajorTopicYN="Y">Coronavirus Infections</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D058873" MajorTopicYN="Y">Pandemics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011024" MajorTopicYN="Y">Pneumonia, Viral</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D029424" MajorTopicYN="Y">Pulmonary Disease, Chronic Obstructive</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000628" MajorTopicYN="N">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherAbstract Type="Publisher" Language="fre">
+            <AbstractText>De nombreux patients avec asthme ou BPCO sont susceptibles d’être infectés par le virus SARS-CoV-2. Bien que les données soient encore limitées, les patients souffrant d’un asthme sévère et/ou non contrôlé et ceux avec une BPCO semblent présenter un risque plus élevé d’infection COVID-19 d’évolution sévère. Les recommandations habituelles de prise en charge de l’asthme et de la BPCO restent pour la plupart valables malgré l’épidémie en cours. Cependant, les épreuves fonctionnelles respiratoires et les traitements en nébulisation sont à effectuer avec précaution pendant la pandémie de COVID-19 en raison d’un risque potentiel d’aérosolisation du virus pendant la procédure. Un soin particulier doit être apporté à l’identification et la protection des patients particulièrement vulnérables à l’infection COVID-19. Les traitements de l’asthme et de la BPCO doivent être poursuivis et adaptés dans le but d’assurer un contrôle optimal de la pathologie respiratoire tout au long de l’épidémie et ainsi limiter le risque de maladie COVID-19 grave.</AbstractText>
+        </OtherAbstract>
+        <CoiStatement>Les auteurs n’ont déclaré aucun conflit d’intérêt en relation avec cet article.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>5</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>5</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>5</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32374540</ArticleId>
+            <ArticleId IdType="pii">RMS0692-012</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

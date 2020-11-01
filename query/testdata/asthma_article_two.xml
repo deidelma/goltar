@@ -1,0 +1,704 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">31747880</PMID>
+        <DateCompleted>
+            <Year>2020</Year>
+            <Month>04</Month>
+            <Day>29</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>04</Month>
+            <Day>29</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1471-2466</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>19</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Nov</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>BMC pulmonary medicine</Title>
+                <ISOAbbreviation>BMC Pulm Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The role of secreted Hsp90α in HDM-induced asthmatic airway epithelial barrier dysfunction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>218</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/s12890-019-0938-z</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The dysfunction of airway epithelial barrier is closely related to the pathogenesis of asthma. Secreted Hsp90α participates in inflammation and Hsp90 inhibitor protects endothelial dysfunction. In the current study, we aimed to explore the role of secreted Hsp90α in asthmatic airway epithelial barrier function.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Male BALB/c mice were sensitized and challenged with HDM to generate asthma model. The 16HBE and Hsp90α-knockdown cells were cultured and treated according to the experiment requirements. Transepithelial Electric Resistance (TEER) and permeability of epithelial layer in vitro, distribution and expression of junction proteins both in vivo and in vitro were used to evaluate the epithelial barrier function. Western Blot was used to evaluate the expression of junction proteins and phosphorylated AKT in cells and lung tissues while ELISA were used to evaluate the Hsp90α expression and cytokines release in the lung homogenate.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">HDM resulted in a dysfunction of airway epithelial barrier both in vivo and in vitro, paralleled with the increased expression and release of Hsp90α. All of which were rescued in Hsp90α-knockdown cells or co-administration of 1G6-D7. Furthermore, either 1G6-D7 or PI3K inhibitor LY294002 suppressed the significant phosphorylation of AKT, which caused by secreted and recombinant Hsp90α, resulting in the restoration of epithelial barrier function.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Secreted Hsp90α medicates HDM-induced asthmatic airway epithelial barrier dysfunction via PI3K/AKT pathway, indicating that anti-secreted Hsp90α therapy might be a potential treatment to asthma in future.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ye</LastName>
+                    <ForeName>Cuiping</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Chaowen</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Jiangmen Central Hospital, Jiangmen, Guangdong, 529030, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zou</LastName>
+                    <ForeName>Mengchen</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Endocrinology and Metabolism, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Yahui</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Lishan</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wei</LastName>
+                    <ForeName>Yilan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wan</LastName>
+                    <ForeName>Xuan</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>Haijin</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Dermatology and the Norris Comprehensive Cancer Centre, University of Southern California Keck, Medical Centre, Los Angeles, CA, 90033, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cai</LastName>
+                    <ForeName>Shaoxi</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China. caishaox@fimmu.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong</LastName>
+                    <ForeName>Hangming</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chronic Airways Diseases Laboratory, Department of Respiratory and Critical Care Medicine, Nan Fang Hospital, Southern Medical University, Guangzhou, 510515, People's Republic of China. huxidhm@126.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>81670026</GrantID>
+                    <Agency>NSAF Joint Fund</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>81470228</GrantID>
+                    <Agency>NSAF Joint Fund</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>81270087</GrantID>
+                    <Agency>NSAF Joint Fund</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>81270089</GrantID>
+                    <Agency>NSAF Joint Fund</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>81500023</GrantID>
+                    <Agency>Young Scientists Fund</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>2016YFC0905800</GrantID>
+                    <Agency>Key Programme</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>2012CB518203</GrantID>
+                    <Agency>Key Basic Research Project of China</Agency>
+                    <Country/>
+                </Grant>
+                <Grant>
+                    <GrantID>2014A030310325</GrantID>
+                    <Agency>Natural Science Foundation of Guangdong Province</Agency>
+                    <Country/>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>BMC Pulm Med</MedlineTA>
+            <NlmUniqueID>100968563</NlmUniqueID>
+            <ISSNLinking>1471-2466</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015820">Cadherins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D002867">Chromones</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D016207">Cytokines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D018841">HSP90 Heat-Shock Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009025">Morpholines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>31M2U1DVID</RegistryNumber>
+                <NameOfSubstance UI="C085911">2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001249" MajorTopicYN="N">Asthma</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+                <QualifierName UI="Q000503" MajorTopicYN="Y">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001980" MajorTopicYN="N">Bronchi</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015820" MajorTopicYN="N">Cadherins</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002460" MajorTopicYN="N">Cell Line</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002867" MajorTopicYN="N">Chromones</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016207" MajorTopicYN="N">Cytokines</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017097" MajorTopicYN="N">Electric Impedance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004847" MajorTopicYN="N">Epithelial Cells</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D055785" MajorTopicYN="N">Gene Knockdown Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018841" MajorTopicYN="N">HSP90 Heat-Shock Proteins</DescriptorName>
+                <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007249" MajorTopicYN="N">Inflammation</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008807" MajorTopicYN="N">Mice, Inbred BALB C</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009025" MajorTopicYN="N">Morpholines</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010766" MajorTopicYN="N">Phosphorylation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D039981" MajorTopicYN="N">Pyroglyphidae</DescriptorName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020545" MajorTopicYN="N">Respiratory Mucosa</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">1G6-D7</Keyword>
+            <Keyword MajorTopicYN="N">Asthma</Keyword>
+            <Keyword MajorTopicYN="N">Epithelial barrier</Keyword>
+            <Keyword MajorTopicYN="N">HDM</Keyword>
+            <Keyword MajorTopicYN="N">Secreted Hsp90α</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2019</Year>
+                <Month>09</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31747880</ArticleId>
+            <ArticleId IdType="doi">10.1186/s12890-019-0938-z</ArticleId>
+            <ArticleId IdType="pii">10.1186/s12890-019-0938-z</ArticleId>
+            <ArticleId IdType="pmc">PMC6868813</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Int Rev Immunol. 2011 Feb;30(1):16-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21235323</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Clin Invest. 2009 Sep;119(9):2538-49</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19690384</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Prostate. 2014 Apr;74(4):395-407</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24338924</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Ann Allergy Asthma Immunol. 2018 Oct;121(4):406-413</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">30056149</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Int Immunol. 2011 Apr;23(4):223-37</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21421737</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Allergy Clin Immunol. 2014 Sep;134(3):499-507</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25171864</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>EMBO J. 2005 Mar 23;24(6):1146-56</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15775979</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Allergy Clin Immunol. 2007 Dec;120(6):1279-84</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17949801</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Nat Cell Biol. 2004 Jun;6(6):507-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15146192</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Eur Respir J. 2010 Apr;35(4):894-903</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19741028</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Immunol Rev. 2016 Jan;269(1):11-25</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26683142</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Am J Respir Cell Mol Biol. 2002 Mar;26(3):341-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11867342</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Immunol. 2014 Dec 15;193(12):5765-71</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25480955</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Allergy Clin Immunol. 2014 Sep;134(3):509-20</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25085341</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Cancer Lett. 2017 Aug 28;402:110-116</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28583846</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Mol Cell Biol. 2013 Dec;33(24):4947-59</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24126057</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Oncogene. 2004 Jul 8;23(31):5378-86</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15077173</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Cell Immunol. 2015 Jun;295(2):137-43</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25880105</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Immunol Rev. 2011 Jul;242(1):205-19</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21682747</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Respir Res. 2017 May 30;18(1):111</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">28558721</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Proc Natl Acad Sci U S A. 2008 Nov 25;105(47):18331-6</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19017792</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>FEBS Lett. 2004 Mar 26;562(1-3):11-5</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">15069952</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Toxicol Sci. 2015 Sep;147(1):168-77</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26089345</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Clin Exp Allergy. 2009 Oct;39(10):1532-9</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19624533</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>PLoS One. 2011;6(9):e25089</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21949862</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Clin Invest. 2011 Nov;121(11):4348-61</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22019588</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Lancet. 2018 Feb 24;391(10122):783-800</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">29273246</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Toxicol Lett. 2015 Jul 2;236(1):25-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25929181</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Cell Physiol. 2009 Aug;220(2):341-7</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19334038</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>EMBO J. 2007 Mar 7;26(5):1221-33</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17304217</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Am J Physiol Lung Cell Mol Physiol. 2013 Feb 15;304(4):L199-209</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23204070</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Biol Chem. 2012 Nov 2;287(45):37732-44</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22989880</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Biol Chem. 2010 Jan 29;285(5):3157-67</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">19933277</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Toxicol Lett. 2013 Jun 20;220(1):8-14</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">23566898</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Immunol. 2007 Jun 15;178(12):7678-85</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">17548604</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Cell Biol. 2012 Mar 19;196(6):789-800</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">22431752</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Cell Sci. 2015 Apr 15;128(8):1475-80</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">25736295</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Am J Physiol Lung Cell Mol Physiol. 2014 May 1;306(9):L866-75</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">24610935</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Am J Respir Cell Mol Biol. 2011 Apr;44(4):431-8</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">20724554</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>PLoS One. 2011 Apr 14;6(4):e18848</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21533148</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Am J Respir Cell Mol Biol. 2011 Nov;45(5):1090-100</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21642587</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Sci Rep. 2016 Feb 05;6:20605</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">26846992</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>J Cell Sci. 2008 Jul 1;121(Pt 13):2224-34</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">18565826</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Trends Immunol. 2011 Jun;32(6):248-55</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">21493142</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+        <ReferenceList>
+            <Reference>
+                <Citation>Respirology. 2000 Sep;5(3):227-30</Citation>
+                <ArticleIdList>
+                    <ArticleId IdType="pubmed">11022984</ArticleId>
+                </ArticleIdList>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>

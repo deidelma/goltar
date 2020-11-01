@@ -1,0 +1,986 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">32794585</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1398-9995</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Allergy</Title>
+                <ISOAbbreviation>Allergy</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>&quot;Severe asthma in adults does not significantly affect the outcome of COVID-19 disease: results from the Italian Severe Asthma Registry&quot;.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/all.14558</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Antonicelli</LastName>
+                    <ForeName>Leonardo</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Allergy Unit, Department of Internal Medicine, Azienda Ospedaliero Universitaria Ospedali Riuniti Umberto I G M Lancisi G Salesi, Ancona, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tontini</LastName>
+                    <ForeName>Chiara</ForeName>
+                    <Initials>C</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-8437-8697</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Allergy Unit, Department of Internal Medicine, Azienda Ospedaliero Universitaria Ospedali Riuniti Umberto I G M Lancisi G Salesi, Ancona, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Manzotti</LastName>
+                    <ForeName>Giuseppina</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Allergy outpatient clinic, Casa di Cura B. Palazzolo, Bergamo, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ronchi</LastName>
+                    <ForeName>Luca</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Unit, ASST Franciacorta, &quot;Mellino Mellini&quot; Hospital, Chiari, BS, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vaghi</LastName>
+                    <ForeName>Adriano</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Unit, ASST Rhodense, Garbagnate Milanese Hospital, Garbagnate Milanese, MI, Italy.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Former Pneumology Unit, ASST Rhodense, Garbagnate Milanese Hospital, Garbagnate Milanese, MI, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bini</LastName>
+                    <ForeName>Francesco</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Unit, ASST Rhodense, Garbagnate Milanese Hospital, Garbagnate Milanese, MI, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scartabellati</LastName>
+                    <ForeName>Alessandro</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Unit, ASST Crema, Maggiore Hospital, Crema, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Menzella</LastName>
+                    <ForeName>Francesco</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology Unit, Department of Medical Specialties, Arcispedale Santa Maria Nuova, Azienda USL di Reggio-Emilia IRCCS, Reggio Emilia, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Michele</LastName>
+                    <ForeName>Fausto</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pneumology I and Respiratory Pathophysiology Unit, A. Cardarelli Hospital, Naples, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Musarra</LastName>
+                    <ForeName>Antonino</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Allergology Department, Casa della Salute di Scilla, Scilla, RC, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Micheletto</LastName>
+                    <ForeName>Claudio</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Respiratory Unit, Cardio-Thoracic Department, Integrated University Hospital of Verona, Verona, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bilò</LastName>
+                    <ForeName>M Beatrice</ForeName>
+                    <Initials>MB</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0002-9324-6039</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Allergy Unit, Department of Clinical and Molecular Sciences, Polytechnic University of Marche, Ancona, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016422">Letter</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Denmark</Country>
+            <MedlineTA>Allergy</MedlineTA>
+            <NlmUniqueID>7804028</NlmUniqueID>
+            <ISSNLinking>0105-4538</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">asthma</Keyword>
+            <Keyword MajorTopicYN="N">asthma treatment</Keyword>
+            <Keyword MajorTopicYN="N">biologics</Keyword>
+            <Keyword MajorTopicYN="N">infections</Keyword>
+            <Keyword MajorTopicYN="N">virus</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32794585</ArticleId>
+            <ArticleId IdType="doi">10.1111/all.14558</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">32794408</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1524-4539</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Circulation</Title>
+                <ISOAbbreviation>Circulation</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Notch3-Marked Subpopulation of Vascular Smooth Muscle Cells is the Cell of Origin for Occlusive Pulmonary Vascular Lesions.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1161/CIRCULATIONAHA.120.045750</ELocationID>
+            <Abstract>
+                <AbstractText><b>Background:</b> Pulmonary arterial hypertension (PAH) is a fatal disease characterized by profound vascular remodeling in which pulmonary arteries narrow due to medial thickening and occlusion by neointimal lesions, resulting in elevated pulmonary vascular resistance and right heart failure. Therapies targeting the neointima would represent a significant advance in PAH treatment, however our understanding of the cellular events driving neointima formation, and the molecular pathways that control them, remains limited. <b>Methods:</b> We comprehensively map the stepwise remodeling of pulmonary arteries in a robust, chronic inflammatory mouse model of pulmonary hypertension. This model demonstrates pathologic features of the human disease, including increased right ventricular pressures, medial thickening, neointimal lesion formation, elastin breakdown, increased anastomosis within the bronchial circulation, and perivascular inflammation. Using genetic lineage tracing, clonal analysis, multiplexed <i>in situ</i> hybridization, immunostaining, deep confocal imaging and staged pharmacologic inhibition we define the cell behaviors underlying each stage of vascular remodeling and identify a pathway required for neointima formation. <b>Results:</b> Neointima arises from smooth muscle cells (SMCs) and not endothelium. Medial SMCs proliferate broadly to thicken the media, after which a small number of SMCs are selected to establish the neointima. These neointimal founder cells subsequently undergoing massive clonal expansion to form occlusive neointimal lesions. The normal pulmonary artery SMC population is heterogeneous and we identify a Notch3-marked minority subset of SMCs as the major neointimal cell of origin. Notch signaling is specifically required for the selection of neointimal founder cells, and Notch inhibition significantly improves pulmonary artery pressure in animals with pulmonary hypertension. <b>Conclusions:</b> This work describes the first nongenetically driven murine model of PH that generates robust and diffuse occlusive neointimal lesions across the pulmonary vascular bed and does so in a stereotyped timeframe. We uncover distinct cellular and molecular mechanisms underlying medial thickening and neointima formation and highlight novel transcriptional, behavioral and pathogenic heterogeneity within pulmonary artery SMCs. In this model, inflammation is sufficient to generate characteristic vascular pathologies and physiologic measures of human PAH. We hope that identifying the molecular cues regulating each stage of vascular remodeling will open new avenues for therapeutic advancements in the treatment of PAH.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Steffes</LastName>
+                    <ForeName>Lea C</ForeName>
+                    <Initials>LC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA; Vera Moulton Wall Center for Pulmonary Vascular Research, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Froistad</LastName>
+                    <ForeName>Alexis A</ForeName>
+                    <Initials>AA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Andruska</LastName>
+                    <ForeName>Adam</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boehm</LastName>
+                    <ForeName>Mario</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA; Universities of Giessen and Marburg Lung Center (UGMLC), JustusLiebig University Giessen, German Center for Lung Research (DZL), Giessen, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McGlynn</LastName>
+                    <ForeName>Madeleine</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Fan</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Vera Moulton Wall Center for Pulmonary Vascular Research, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Wenming</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hou</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tian</LastName>
+                    <ForeName>Xuefei</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miquerol</LastName>
+                    <ForeName>Lucile</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Aix-Marseille University, CNRS, IBDM, Marseille, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nadeau</LastName>
+                    <ForeName>Kari</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Metzger</LastName>
+                    <ForeName>Ross J</ForeName>
+                    <Initials>RJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA; Vera Moulton Wall Center for Pulmonary Vascular Research, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Spiekerkoetter</LastName>
+                    <ForeName>Edda</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Vera Moulton Wall Center for Pulmonary Vascular Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kumar</LastName>
+                    <ForeName>Maya E</ForeName>
+                    <Initials>ME</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary Medicine, Department of Pediatrics, Stanford University School of Medicine, Stanford, CA; Vera Moulton Wall Center for Pulmonary Vascular Research, Stanford University School of Medicine, Stanford, CA; Sean N. Parker Center for Asthma and Allergy Research, Stanford University School of Medicine, Stanford, CA; Division of Pulmonary, Allergy and Critical Care Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>08</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Circulation</MedlineTA>
+            <NlmUniqueID>0147763</NlmUniqueID>
+            <ISSNLinking>0009-7322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cellular heterogeneity</Keyword>
+            <Keyword MajorTopicYN="N">clonal analysis</Keyword>
+            <Keyword MajorTopicYN="N">lineage tracing</Keyword>
+            <Keyword MajorTopicYN="N">medial thickening</Keyword>
+            <Keyword MajorTopicYN="N">notch signaling</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32794408</ArticleId>
+            <ArticleId IdType="doi">10.1161/CIRCULATIONAHA.120.045750</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">32794262</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1938-3673</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Aug</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of leukocyte biology</Title>
+                <ISOAbbreviation>J. Leukoc. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Immature neutrophil signature associated with the sexual dimorphism of systemic juvenile idiopathic arthritis.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/JLB.6MA0720-015RR</ELocationID>
+            <Abstract>
+                <AbstractText>Juvenile idiopathic arthritis (JIA) is a group of inflammatory conditions of unknown etiology whose incidence is sex dependent. Although several studies have attempted to identify JIA-related gene signatures, none have systematically assessed the impact of sex on the whole blood transcriptomes of JIA patients. By analyzing over 400 unique pediatric gene expression profiles, we characterized the sexual differences in leukocyte composition of systemic JIA patients and identified sex-specific gene signatures that were related to immature neutrophils. Female systemic JIA patients presented higher activation of immature neutrophil-related genes compared to males, and these genes were associated with the response to IL-1 receptor blockade treatment. Also, we found that this immature neutrophil signature is sexually dimorphic across human lifespan and in adults with rheumatoid arthritis and asthma. These results suggest that neutrophil maturation is sexually dimorphic in rheumatic inflammation, and that this may impact disease progression and treatment.</AbstractText>
+                <CopyrightInformation>©2020 Society for Leukocyte Biology.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Prada-Medina</LastName>
+                    <ForeName>Cesar Augusto</ForeName>
+                    <Initials>CA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peron</LastName>
+                    <ForeName>Jean Pierre Schatzmann</ForeName>
+                    <Initials>JPS</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0003-1638-8866</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology, University of São Paulo, São Paulo, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Scientific Platform Pasteur-USP, University of São Paulo, São Paulo, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakaya</LastName>
+                    <ForeName>Helder I</ForeName>
+                    <Initials>HI</Initials>
+                    <Identifier Source="ORCID">https://orcid.org/0000-0001-5297-9108</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Scientific Platform Pasteur-USP, University of São Paulo, São Paulo, Brazil.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>08</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Leukoc Biol</MedlineTA>
+            <NlmUniqueID>8405628</NlmUniqueID>
+            <ISSNLinking>0741-5400</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">gene expression</Keyword>
+            <Keyword MajorTopicYN="N">juvenile idiopathic arthritis</Keyword>
+            <Keyword MajorTopicYN="N">meta-analysis</Keyword>
+            <Keyword MajorTopicYN="N">neutrophil maturation</Keyword>
+            <Keyword MajorTopicYN="N">sexual dimorphism</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2020</Year>
+                <Month>01</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2020</Year>
+                <Month>07</Month>
+                <Day>08</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2020</Year>
+                <Month>01</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32794262</ArticleId>
+            <ArticleId IdType="doi">10.1002/JLB.6MA0720-015RR</ArticleId>
+        </ArticleIdList>
+        <ReferenceList>
+            <Title>REFERENCES</Title>
+            <Reference>
+                <Citation>Manners PJ, Bower C. Worldwide prevalence of juvenile arthritis - Why does it vary so much?. J Rheumatol. 2002;29(7):1520-1530.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Prakken B, Albani S, Martini A. Juvenile idiopathic arthritis. Lancet. 2011;377(9783):2138-2149.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Klatchoian DA, Len CA, Terreri M, et al. Quality of life of children and adolescents from São Paulo: reliability and validity of the Brazilian version of the Pediatric Quality of Life Inventory version 4.0 Generic Core Scales. J Pediatr (Rio J). 2008;84(4):308-315.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Foster HE, Marshall N, Myers A, Dunkley P, Griffiths ID. Outcome in adults with juvenile idiopathic arthritis: a quality of life study. Arthritis Rheum. 2003;48(3):767-775.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Davies R, Southwood TR, Kearsley-Fleet L, Lunt M, Hyrich KL. FRI0557 Standardised mortality rates are increased in patients with severe juvenile idiopathic arthritis. Ann Rheum Dis. 2014;73(Suppl 2):588.1-588.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Ombrello MJ, Arthur VL, Remmers EF, et al. Genetic architecture distinguishes systemic juvenile idiopathic arthritis from other forms of juvenile idiopathic arthritis: clinical and therapeutic implications. Ann Rheum Dis. 2017;76(5):906-913.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Toplak N, Blazina Š, Avčin T. The role of IL-1 inhibition in systemic juvenile idiopathic arthritis: current status and future perspectives. Drug Des Dev Ther. 2018;12:1633-1643.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Cattalini M, Soliani M, Caparello MC, Cimaz R. Sex differences in pediatric rheumatology. Clin Rev Allergy Immunol. 2019;56(3):293-307.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Favalli EG, Biggioggero M, Crotti C, Becciolini A, Raimondo MG, Meroni PL. Sex and management of rheumatoid arthritis. Clin Rev Allergy Immunol. 2019;56(3):333-345.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Chiaroni-Clarke RC, Li YR, Munro JE, et al. The association of PTPN22 rs2476601 with juvenile idiopathic arthritis is specific to females. Genes Immun. 2015;16(7):495-498.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Chiaroni-Clarke RC, Munro JE, Ellis JA. Sex bias in paediatric autoimmune disease - Not just about sex hormones? J Autoimmun. 2016;69:12-23.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Ishikawa S, Mima T, Aoki C, et al. Abnormal expression of the genes involved in cytokine networks and mitochondrial function in systemic juvenile idiopathic arthritis identified by DNA microarray analysis. Ann Rheum Dis. 2009;68(2):264-272.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Quartier P, Allantaz F, Cimaz R, et al. A multicentre, randomised, double-blind, placebo-controlled trial with the interleukin-1 receptor antagonist anakinra in patients with systemic-onset juvenile idiopathic arthritis (ANAJIS trial). Ann Rheum Dis. 2011;70(5):747-754.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Brachat AH, Grom AA, Wulffraat N, et al. Early changes in gene expression and inflammatory proteins in systemic juvenile idiopathic arthritis patients on canakinumab therapy. Arthritis Res Ther. 2017;19(1):13.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Put K, Vandenhaute J, Avau A, et al. Inflammatory gene expression profile and defective interferon-γ and granzyme K in natural killer cells from systemic juvenile idiopathic arthritis patients. Arthritis Rheum . 2017;69(1):213-224.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Gaur P, Myles A, Misra R, Aggarwal A. Intermediate monocytes are increased in enthesitis-related arthritis, a category of juvenile idiopathic arthritis. Clin Exp Immunol. 2017;187(2):234-241.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Cepika A-M, Banchereau R, Segura E, et al. A multidimensional blood stimulation assay reveals immune alterations underlying systemic juvenile idiopathic arthritis. J Exp Med. 2017;214(11):3449-3466.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Moncrieffe H, Bennett MF, Tsoras M, et al. Transcriptional profiles of JIA patient blood with subsequent poor response to methotrexate. Rheumatology (Oxford). 2017;56(9):1542-1551.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Uhlen M, Oksvold P, Fagerberg L, et al. Towards a knowledge-based human protein atlas. Nat Biotechnol. 2010;28(12):1248-1250.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Morita T, Shima Y, Wing JB, Sakaguchi S, Ogata A, Kumanogoh A. The proportion of regulatory T cells in patients with rheumatoid arthritis: a meta-analysis. PLoS One. 2016;11(9):e0162306.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Grassi L, Pourfarzad F, Ullrich S, et al. Dynamics of transcription regulation in human bone marrow myeloid differentiation to mature blood neutrophils. Cell Rep. 2018;24(10):2784-2794.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Hanzelmann S, Castelo R, Guinney J. GSVA: gene set variation analysis for microarray and RNA-seq data. BMC Bioinformatics. 2013;14:7.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Ritchie ME, Phipson B, Wu D, et al. limma powers differential expression analyses for RNA-sequencing and microarray studies. Nucleic Acids Res. 2015;43(7):e47.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Lai S, Huang W, Xu Y, et al. Comparative transcriptomic analysis of hematopoietic system between human and mouse by Microwell-seq. Cell Discov. 2018;4:34.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Gattorno M, Piccini A, Lasigliè D, et al. The pattern of response to anti-interleukin-1 treatment distinguishes two subsets of patients with systemic-onset juvenile idiopathic arthritis. Arthritis Rheum. 2008;58(5):1505-1515.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Tasaki S, Suzuki K, Kassai Y, et al. Multi-omics monitoring of drug response in rheumatoid arthritis in pursuit of molecular remission. Nat Commun. 2018;9(1):2755.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Bigler J, Boedigheimer M, Schofield JPR, et al. A severe asthma disease signature from gene expression profiling of peripheral blood from U-BIOPRED cohorts. Am J Respir Crit Care Med. 2017;195(10):1311-1320.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Kent JW, Göring HHH, Charlesworth JC, et al. Genotype×age interaction in human transcriptional ageing. Mech Ageing Dev. 2012;133(9-10):581-590.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Hong S, Banchereau R, Maslow BSL, et al. Longitudinal profiling of human blood transcriptome in healthy and lupus pregnancy. J Exp Med. 2019;216(5):1154-1169.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Ramanathan K, Glaser A, Lythgoe H, et al. Neutrophil activation signature in juvenile idiopathic arthritis indicates the presence of low-density granulocytes. Rheumatology (Oxford). 2018;57(3):488-498.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Villanueva E, Yalavarthi S, Berthier CC, et al. Netting neutrophils induce endothelial damage, infiltrate tissues, and expose immunostimulatory molecules in systemic lupus erythematosus. J Immunol. 2011;187(1):538-552.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Bennett L, Palucka AK, Arce E, et al. Interferon and granulopoiesis signatures in systemic lupus erythematosus blood. J Exp Med. 2003;197(6):711-723.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Denny MF, Yalavarthi S, Zhao W, et al. A distinct subset of proinflammatory neutrophils isolated from patients with systemic lupus erythematosus induces vascular damage and synthesizes type I IFNs. J Immunol. 2010;184(6):3284-3297.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>de Coupade C, Gear RW, Dazin PF, Sroussi HY, Green PG, Levine JD. beta(2)-adrenergic receptor regulation of human neutrophil function is sexually dimorphic. Br J Pharmacol. 2004;143(8):1033-1041.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Fuseini H, Cephus JY, Wu P, et al. ER alpha signaling increased IL-17A production in Th17 cells by upregulating IL-23R expression, mitochondrial respiration, and proliferation. Front Immunol. 2019;10.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Al-Mossawi MH, Chen L, Fang H, et al. Unique transcriptome signatures and GM-CSF expression in lymphocytes from patients with spondyloarthritis. Nat Commun. 2017;8.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Dimitrijevic M, Arsenović-Ranin N, Kosec D, et al. Sexual dimorphism in Th17/Treg axis in lymph nodes draining inflamed joints in rats with collagen-induced arthritis. Brain Behav Immun. 2019;76:198-214.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Ter Haar NM, Tak T, Mokry M, et al. Reversal of sepsis-like features of neutrophils by interleukin-1 blockade in patients with systemic-onset juvenile idiopathic arthritis. Arthritis Rheum. 2018;70(6):943-956.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Swart JF, de Roock S, Prakken BJ. Understanding inflammation in juvenile idiopathic arthritis: how immune biomarkers guide clinical strategies in the systemic onset subtype. Eur J Immunol. 2016;46(9):2068-2077.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Rothmund F, Gerss J, Ruperto N, et al. Validation of relapse risk biomarkers for routine use in patients with juvenile idiopathic arthritis. Arthritis Care Res. 2014;66(6):949-955.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Carmona-Rivera C, Kaplan MJ. Low-density granulocytes: a distinct class of neutrophils in systemic autoimmunity. Semin Immunopathol. 2013;35(4):455-463.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Gautier L, Cope L, Bolstad BM, Irizarry RA. affy-analysis of Affymetrix GeneChip data at the probe level. Bioinformatics. 2004;20(3):307-315.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Davis CA, Hitz BC, Sloan CA, et al. The encyclopedia of DNA elements (ENCODE): data portal update. Nucleic Acids Res. 2018;46(D1):D794-D801.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Zhao Y, Li H, Fang S, et al. NONCODE 2016: an informative and valuable data source of long non-coding RNAs. Nucleic Acids Res. 2016;44(D1):D203-8.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Volders P-J, Helsens K, Wang X, et al. LNCipedia: a database for annotated human lncRNA transcript sequences and structures. Nucleic Acids Res. 2013;41(Database issue):D246-D251.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>de Lima DS, Cardozo LE, Maracaja-Coutinho V, et al. Long noncoding RNAs are involved in multiple immunological pathways in response to vaccination. PNAS. 2019;116(34):17121-17126.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Butler A, Hoffman P, Smibert P, Papalexi E, Satija R. Integrating single-cell transcriptomic data across different conditions, technologies, and species. Nat Biotechnol. 2018;36(5):411-420.</Citation>
+            </Reference>
+            <Reference>
+                <Citation>Trapnell C, Cacchiarelli D, Grimsby J, et al. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol. 2014;32(4):381-386.</Citation>
+            </Reference>
+        </ReferenceList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">32793706</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">2305-5839</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>8</Volume>
+                    <Issue>14</Issue>
+                    <PubDate>
+                        <Year>2020</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of translational medicine</Title>
+                <ISOAbbreviation>Ann Transl Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lung parenchymal and airway changes on CT imaging following allergen challenge and bronchoalveolar lavage in atopic and asthmatic subjects.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>862</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.21037/atm-20-1719</ELocationID>
+            <Abstract>
+                <AbstractText Label="Background" NlmCategory="UNASSIGNED">Computed tomography (CT) imaging findings in the lungs in the setting of an acute allergic response and following bronchoalveolar lavage (BAL) are not well established. Our goals are to characterize the pulmonary CT findings of acute allergic response in both asthmatic and non-asthmatic subjects and, secondarily, to characterize the pulmonary imaging findings following BAL.</AbstractText>
+                <AbstractText Label="Methods" NlmCategory="UNASSIGNED">In this prospective observational (cohort) study, we identified atopic, asthmatic (AA) and atopic, non-asthmatic (ANA) subjects. CT of the chest was performed following BAL and instillation of an allergen (AL) and of an inert diluent (DL). Two radiologists analyzed the CT examinations for airway and parenchymal changes.</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">We had a cohort of 20 atopic subjects (AA=10, ANA=10; F=11, M=9; median age: 23.5 years, range: 18-48 years). Compared to diluent instillation and BAL, allergen instillation resulted in more significant bronchial wall thickening (AL=70%, DL=0%, BAL=0%, P&lt;0.01), consolidations (AL=55%, DL=0%, BAL=15%, P&lt;0.05), and septal thickening (AL=35%, DL=0%, BAL=0%, P&lt;0.01). When present, consolidations tended to be more common in asthmatic subjects compared to non-asthmatics following instillation of the allergen, although this did not reach statistical significance (AA=80% <i>vs</i>. ANA=30%; P=0.07). BAL, on the other hand, resulted in more ground-glass opacities (BAL=15/20, 75% <i>vs.</i> AL=2/20, 10%, <i>vs</i>. DL=0/20, 0%; P&lt;0.01).</AbstractText>
+                <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">Acute allergic response in the lungs can result in significant bronchial wall thickening, septal thickening, and consolidations in those with atopy, particularly those with asthma. Localized ground-glass opacities may be expected following BAL, and care should be taken so as to not misinterpret these as significant pathology.</AbstractText>
+                <CopyrightInformation>2020 Annals of Translational Medicine. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mendoza</LastName>
+                    <ForeName>Dexter P</ForeName>
+                    <Initials>DP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Division of Thoracic Imaging and Intervention, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kohli</LastName>
+                    <ForeName>Puja</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nance</LastName>
+                    <ForeName>John W</ForeName>
+                    <Initials>JW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Division of Thoracic Imaging and Intervention, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Singh</LastName>
+                    <ForeName>Ramandeep</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Division of Thoracic Imaging and Intervention, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cho</LastName>
+                    <ForeName>Josalyn</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Griffith</LastName>
+                    <ForeName>Jason</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Harris</LastName>
+                    <ForeName>R Scott</ForeName>
+                    <Initials>RS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kelly</LastName>
+                    <ForeName>Vanessa J</ForeName>
+                    <Initials>VJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luster</LastName>
+                    <ForeName>Andrew D</ForeName>
+                    <Initials>AD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Rheumatology, Allergy and Immunology, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Medoff</LastName>
+                    <ForeName>Benjamin</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Digumarthy</LastName>
+                    <ForeName>Subba R</ForeName>
+                    <Initials>SR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Division of Thoracic Imaging and Intervention, Massachusetts General Hospital, Boston, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Ann Transl Med</MedlineTA>
+            <NlmUniqueID>101617978</NlmUniqueID>
+            <ISSNLinking>2305-5839</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Allergy</Keyword>
+            <Keyword MajorTopicYN="N">asthma</Keyword>
+            <Keyword MajorTopicYN="N">bronchoscopy</Keyword>
+            <Keyword MajorTopicYN="N">radiology</Keyword>
+        </KeywordList>
+        <CoiStatement>Conflicts of Interest: All authors have completed the ICMJE uniform disclosure form (available at http://dx.doi.org/10.21037/atm-20-1719). JWN reports other from Genentech and Boehringer-Ingelheim, outside the submitted work. SRD reports other from Merck, Pfizer, Bristol Mayer Squibb, Novartis, Roche, Polaris, Cascadian, Abbvie, Gradalis, Clinical Bay, Zai laboratories, and Siemens, outside the submitted work. The other authors have no conflicts of interest to declare.</CoiStatement>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32793706</ArticleId>
+            <ArticleId IdType="doi">10.21037/atm-20-1719</ArticleId>
+            <ArticleId IdType="pii">atm-08-14-862</ArticleId>
+            <ArticleId IdType="pmc">PMC7396741</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+        <PMID Version="1">32793544</PMID>
+        <DateRevised>
+            <Year>2020</Year>
+            <Month>08</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Print">2296-2565</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>8</Volume>
+                    <PubDate>
+                        <Year>2020</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Frontiers in public health</Title>
+                <ISOAbbreviation>Front Public Health</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Impact of Social Determinants of Health on the Emerging COVID-19 Pandemic in the United States.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>406</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3389/fpubh.2020.00406</ELocationID>
+            <Abstract>
+                <AbstractText>A novel coronavirus (2019-nCoV) caused a global pandemic in the months following the first four cases reported in Wuhan, China, on December 29, 2019. The elderly, immunocompromised, and those with preexisting conditions-such as asthma, cardiovascular disease (CVD), hypertension, chronic kidney disease (CKD), or obesity-experience higher risk of becoming severely ill if infected with the virus. Systemic social inequality and discrepancies in socioeconomic status (SES) contribute to higher incidence of asthma, CVD, hypertension, CKD, and obesity in segments of the general population. Such preexisting conditions bring heightened risk of complications for individuals who contract the coronavirus disease (COVID-19) from the virus (2019-nCoV)-also known as &quot;severe acute respiratory syndrome coronavirus 2&quot; (SARS-CoV-2). In order to help vulnerable groups during times of a health emergency, focus must be placed at the root of the problem. Studying the social determinants of health (SDOH), and how they impact disadvantaged populations during times of crisis, will help governments to better manage health emergencies so that every individual has equal opportunity to staying healthy. This review summarizes the impact of social determinants of health (SDOH) during the COVID-19 pandemic.</AbstractText>
+                <CopyrightInformation>Copyright © 2020 Singu, Acharya, Challagundla and Byrareddy.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Singu</LastName>
+                    <ForeName>Sravani</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology and Experimental Neuroscience, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Acharya</LastName>
+                    <ForeName>Arpan</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology and Experimental Neuroscience, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Challagundla</LastName>
+                    <ForeName>Kishore</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Molecular Biology, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Byrareddy</LastName>
+                    <ForeName>Siddappa N</ForeName>
+                    <Initials>SN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology and Experimental Neuroscience, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry and Molecular Biology, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Genetics, Cell Biology, and Anatomy, University of Nebraska Medical Centre, Omaha, NE, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2020</Year>
+                <Month>07</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Switzerland</Country>
+            <MedlineTA>Front Public Health</MedlineTA>
+            <NlmUniqueID>101616579</NlmUniqueID>
+            <ISSNLinking>2296-2565</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">COVID-19</Keyword>
+            <Keyword MajorTopicYN="N">SARS-CoV-2</Keyword>
+            <Keyword MajorTopicYN="N">SDOH</Keyword>
+            <Keyword MajorTopicYN="N">economy</Keyword>
+            <Keyword MajorTopicYN="N">education</Keyword>
+            <Keyword MajorTopicYN="N">food</Keyword>
+            <Keyword MajorTopicYN="N">public health</Keyword>
+            <Keyword MajorTopicYN="N">social inequality</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2020</Year>
+                <Month>05</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2020</Year>
+                <Month>07</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2020</Year>
+                <Month>8</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">32793544</ArticleId>
+            <ArticleId IdType="doi">10.3389/fpubh.2020.00406</ArticleId>
+            <ArticleId IdType="pmc">PMC7385373</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

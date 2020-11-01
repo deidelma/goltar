@@ -1,0 +1,16 @@
+[database]
+name = "zoltar"
+
+[[searches]]
+name = "job1"
+ands = ["asthma", "copd"]
+authors = ["hamid,q", "martin,jg"]
+years = ["2001", "2002"]
+collection = "asthma_test"
+
+[[searches]]
+name = "job2"
+ands = ["asthma", "leukotrienes"]
+authors = ["hamid,q", "minshall,e"]
+years = ["2001-2004"]
+collection = "asthma_test"
