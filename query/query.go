@@ -10,6 +10,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/deidelma/goltar/dbg"
 )
 
 const apiKey = "5f3d0627bf00f873f63c871a085d82b25b08"
@@ -46,7 +48,7 @@ func extractQuery(data []byte, query *Query) error {
 func ESearch(terms string) (Query, error) {
 	result := Query{}
 	url := fmt.Sprintf("%s&term=%s&retmode=json", searchURL, terms)
-	//log.Print(url)
+	dbg.Printf("URL:%s\n", url)
 	res, err := http.Get(url)
 	if err != nil {
 		return result, err
@@ -84,7 +86,7 @@ func fetchSlice(q Query, start int, nrecs int) ([]byte, error) {
 	result := []byte{}
 	url := fmt.Sprintf("%s&WebEnv=%s&query_key=%s&retstart=%d&retmax=%d&retmode=xml",
 		fetchURL, q.WebEnv, q.QueryKey, start, nrecs)
-	// log.Printf("URL:%s", url)
+	dbg.Printf("URL:%s", url)
 	for notDone {
 		// res, err := http.Get(url)
 		res, err := myClient().Get(url)
@@ -97,7 +99,7 @@ func fetchSlice(q Query, start int, nrecs int) ([]byte, error) {
 			break
 		} else {
 			run++
-			// log.Printf("Trying again <%d>", run)
+			dbg.Printf("fetchSlice:Trying again <%d>", run)
 			time.Sleep(1)
 		}
 		if run >= retries {
@@ -135,10 +137,10 @@ func EFetchSync(q Query) (string, error) {
 		}
 		result.WriteString(string(xml))
 		recs := parseXML(string(xml), "PubmedArticle")
-		log.Printf("%d) found %d recs after fetchSlice", i, len(recs))
+		dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 		time.Sleep(1)
 	}
-	log.Printf("Downloaded %d bytes of xml", len(result.String()))
+	dbg.Printf("Downloaded %d bytes of xml", len(result.String()))
 	return result.String(), nil
 }
 
@@ -160,7 +162,7 @@ func EFetchRecs(q Query) ([]string, error) {
 				log.Fatalf("Unable to download slice: %v", err)
 			}
 			recs := parseXML(string(xml), "PubmedArticle")
-			log.Printf("%d) found %d recs after fetchSlice", i, len(recs))
+			dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 			result = append(result, recs...)
 			wg.Done()
 		}(q, slice, sliceSize, i)
@@ -181,23 +183,19 @@ func EFetch(q Query) (string, error) {
 	for i, slice := range sliceStarts {
 		wg.Add(1)
 		go func(q Query, slice int, sliceSize int, i int) {
-			// log.Printf("%d) Downloading slice %d size %d", i, slice, sliceSize)
+			dbg.Printf("%d) Downloading slice %d size %d", i, slice, sliceSize)
 			xml, err := fetchSlice(q, slice, sliceSize)
 			if err != nil {
 				log.Fatalf("Unable to download slice: %v", err)
 			}
-			// log.Printf("%d) Adding data of %d bytes to buffer", i, len(xml))
 			result.WriteString(string(xml))
 			recs := parseXML(string(xml), "PubmedArticle")
-			log.Printf("%d) found %d recs after fetchSlice", i, len(recs))
-			// if len(recs) < sliceSize {
-			// 	log.Fatalln(string(xml))
-			// }
+			dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 			wg.Done()
 		}(q, slice, sliceSize, i)
 	}
 	wg.Wait()
-	log.Printf("Downloaded %d bytes of xml", len(result.String()))
+	dbg.Printf("Downloaded %d bytes of xml", len(result.String()))
 	return result.String(), nil
 }
 

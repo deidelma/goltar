@@ -4,6 +4,7 @@ import (
 	"log"
 	"testing"
 
+	"github.com/deidelma/goltar/dbg"
 	jobs "github.com/deidelma/goltar/jobs"
 )
 
@@ -84,7 +85,8 @@ func TestGenerateSlices(t *testing.T) {
 	size := 500
 	slices := generateSlices(max, size)
 
+	dbg.Start()
 	for i, n := range slices {
-		log.Printf("%d: %d => %d", i, n, n+size)
+		dbg.Printf("%d: %d => %d", i, n, n+size)
 	}
 }
