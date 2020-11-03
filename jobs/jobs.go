@@ -58,7 +58,7 @@ func itemsToString(items []string, conjuction string) string {
 // CleanString ensures that terms are properly URL encoded
 func CleanString(s string) string {
 	result := strings.ReplaceAll(s, "'", "%27")
-	result = strings.ReplaceAll(s, " ", "+")
+	result = strings.ReplaceAll(result, " ", "+")
 	return result
 }
 
