@@ -3,9 +3,12 @@ module github.com/deidelma/goltar
 go 1.15
 
 require (
-	github.com/amitbet/gorename v0.0.0-20190107054843-300b577db37e // indirect
 	github.com/antchfx/xmlquery v1.3.3
 	github.com/basgys/goxml2json v1.1.0
+	github.com/bitly/go-simplejson v0.5.0 // indirect
+	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
+	github.com/kr/pretty v0.2.1 // indirect
 	github.com/pelletier/go-toml v1.8.1
-	golang.org/x/tools v0.0.0-20201102212025-f46e4245211d // indirect
+	github.com/stretchr/testify v1.6.1 // indirect
+	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
 )
