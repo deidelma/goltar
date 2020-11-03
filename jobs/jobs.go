@@ -55,8 +55,8 @@ func itemsToString(items []string, conjuction string) string {
 	return itemsToStringSuffix(items, conjuction, "")
 }
 
-// CleanString ensures that terms are properly URL encoded
-func CleanString(s string) string {
+// URLEncode ensures that terms are properly URL encoded
+func URLEncode(s string) string {
 	result := strings.ReplaceAll(s, "'", "%27")
 	result = strings.ReplaceAll(result, " ", "+")
 	return result
@@ -83,7 +83,7 @@ func (search *Search) TermString() []string {
 			items = append(items, fmt.Sprintf("+AND+%s", authorSegment))
 		}
 		items = append(items, fmt.Sprintf("+AND+%d[pdat]", year))
-		s := CleanString(strings.Join(items, ""))
+		s := URLEncode(strings.Join(items, ""))
 		// result = append(result, strings.Join(items, ""))
 		result = append(result, s)
 	}
