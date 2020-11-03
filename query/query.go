@@ -136,7 +136,7 @@ func EFetchSync(q Query) (string, error) {
 			log.Fatalf("Unable to download slice: %v", err)
 		}
 		result.WriteString(string(xml))
-		recs := parseXML(string(xml), "PubmedArticle")
+		recs := SplitXML(string(xml), "PubmedArticle")
 		dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 		time.Sleep(1)
 	}
@@ -161,7 +161,7 @@ func EFetchRecs(q Query) ([]string, error) {
 			if err != nil {
 				log.Fatalf("Unable to download slice: %v", err)
 			}
-			recs := parseXML(string(xml), "PubmedArticle")
+			recs := SplitXML(string(xml), "PubmedArticle")
 			dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 			result = append(result, recs...)
 			wg.Done()
@@ -189,7 +189,7 @@ func EFetch(q Query) (string, error) {
 				log.Fatalf("Unable to download slice: %v", err)
 			}
 			result.WriteString(string(xml))
-			recs := parseXML(string(xml), "PubmedArticle")
+			recs := SplitXML(string(xml), "PubmedArticle")
 			dbg.Printf("%d) found %d recs after fetchSlice", i, len(recs))
 			wg.Done()
 		}(q, slice, sliceSize, i)
@@ -199,9 +199,9 @@ func EFetch(q Query) (string, error) {
 	return result.String(), nil
 }
 
-// parseXML splits the xml string into blocks demarked by
+// SplitXML splits the xml string into blocks demarked by
 // the provided tag
-func parseXML(xml string, tag string) []string {
+func SplitXML(xml string, tag string) []string {
 	result := []string{}
 	start := fmt.Sprintf("<%s>", tag)
 	end := fmt.Sprintf("</%s>", tag)
@@ -241,6 +241,6 @@ func FetchRecords(terms string) ([]string, error) {
 	if err != nil {
 		return result, err
 	}
-	result = parseXML(xml, "PubmedArticle")
+	result = SplitXML(xml, "PubmedArticle")
 	return result, nil
 }

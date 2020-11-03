@@ -75,7 +75,7 @@ func TestFetchJobSync(t *testing.T) {
 	if err != nil {
 		t.Errorf("Error fetching data:[%v]", err)
 	}
-	recs := parseXML(string(data), "PubmedArticle")
+	recs := SplitXML(string(data), "PubmedArticle")
 	if len(recs) != int(q.Count-5) {
 		t.Errorf("Expected %d, received %d", q.Count-5, len(recs))
 	}
@@ -98,7 +98,7 @@ func TestParseXML(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Unable to find data:%s", file)
 	}
-	recs := parseXML(string(data), "PubmedArticle")
+	recs := SplitXML(string(data), "PubmedArticle")
 	if len(recs) != 200 {
 		t.Errorf("Expected 200, receieved %d", len(recs))
 	}
