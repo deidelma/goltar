@@ -8,6 +8,7 @@ import (
 
 	"github.com/antchfx/xmlquery"
 	xj "github.com/basgys/goxml2json"
+	query "github.com/deidelma/goltar/query"
 )
 
 func check(e error) {
@@ -134,5 +135,23 @@ func TestParseXMLTwo(t *testing.T) {
 	}
 	if article.Keywords[i-1] != "HDM" {
 		t.Errorf("Wrong keyword: %s", article.Keywords[i-1])
+	}
+}
+
+func TestConvert200(t *testing.T) {
+	articles := []Article{}
+	data, err := ioutil.ReadFile("testdata/asthma200.xml")
+	check(err)
+	recs := query.SplitXML(string(data), "PubmedArticle")
+	for _, rec := range recs {
+		xml := strings.NewReader(rec)
+		article, err := ParseXML(xml)
+		if err != nil {
+			t.Fatalf("parser error: <%v>", err)
+		}
+		articles = append(articles, article)
+	}
+	if len(articles) != 200 {
+		t.Errorf("Expected 200, received %d", len(articles))
 	}
 }
