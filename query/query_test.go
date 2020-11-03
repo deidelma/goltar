@@ -105,7 +105,7 @@ func TestParseXML(t *testing.T) {
 }
 
 func TestSearchReturnsCorrectCount(t *testing.T) {
-	terms := jobs.CleanString("asthma AND leukotrienes AND o'byrne p[au]")
+	terms := jobs.URLEncode("asthma AND leukotrienes AND o'byrne p[au]")
 	dbg.Printf("Terms:%s", terms)
 	q, err := ESearch(terms)
 	if err != nil {
@@ -117,7 +117,7 @@ func TestSearchReturnsCorrectCount(t *testing.T) {
 }
 
 func TestFetchReturnsCorrectNumberOfRecords(t *testing.T) {
-	terms := jobs.CleanString("asthma AND leukotrienes AND o'byrne p[au]")
+	terms := jobs.URLEncode("asthma AND leukotrienes AND o'byrne p[au]")
 	q, _ := ESearch(terms)
 	recs, err := EFetchRecs(q)
 	if err != nil {
