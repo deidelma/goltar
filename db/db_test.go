@@ -19,7 +19,8 @@ func TestConnection(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
 	err = client.Connect(ctx)
 	if err != nil {
 		t.Fatal(err)
@@ -86,7 +87,8 @@ func TestPost(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
 	err = client.Connect(ctx)
 	if err != nil {
 		t.Fatal(err)
@@ -126,9 +128,8 @@ func TestPost(t *testing.T) {
 		log.Println(err.Error())
 		if strings.Contains(err.Error(), "mongo: no documents") {
 			return
-		} else {
-			t.Errorf("Failed to detect missing element:<%v>", err)
 		}
+		t.Errorf("Failed to detect missing element:<%v>", err)
 	}
 	t.Errorf("Retrieved false record from search")
 

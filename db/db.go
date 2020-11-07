@@ -33,6 +33,7 @@ type DB struct {
 	database   string
 	coll       string
 	Ctx        context.Context
+	cancel     context.CancelFunc
 }
 
 // OpenDB attempts to estblish a client link the provided database and collection.
@@ -49,7 +50,8 @@ func OpenDB(database string, collection string) (*DB, error) {
 
 // Connect opens a connection to the database
 func Connect(db *DB) error {
-	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	db.cancel = cancel
 	err := db.client.Connect(ctx)
 	if err != nil {
 		return err
@@ -62,4 +64,5 @@ func Connect(db *DB) error {
 // typically used with defer
 func Disconnect(db *DB) {
 	db.client.Disconnect(db.Ctx)
+	db.cancel()
 }
