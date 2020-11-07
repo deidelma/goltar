@@ -59,6 +59,11 @@ func itemsToString(items []string, conjuction string) string {
 func URLEncode(s string) string {
 	result := strings.ReplaceAll(s, "'", "%27")
 	result = strings.ReplaceAll(result, " ", "+")
+	// result = strings.ReplaceAll(result, "$", "%24")
+	// // result = strings.ReplaceAll(result, "%", "%25")
+	// result = strings.ReplaceAll(result, "#", "%23")
+	// result = strings.ReplaceAll(result, `"`, "%22")
+	// result = strings.ReplaceAll(result, "!", "%21")
 	return result
 }
 
