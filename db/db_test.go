@@ -3,6 +3,7 @@ package db
 import (
 	"context"
 	"log"
+	"strings"
 	"testing"
 	"time"
 
@@ -52,6 +53,34 @@ func GetPost(ctx context.Context, client *mongo.Client, id primitive.ObjectID) (
 	return result, nil
 }
 
+func DeletePost(
+	ctx context.Context,
+	client *mongo.Client,
+	id primitive.ObjectID) (*mongo.DeleteResult, error) {
+	filter := bson.D{{"_id", id}}
+	collection := client.Database("my_db").Collection("posts")
+	return collection.DeleteOne(context.TODO(), filter)
+}
+
+func UpdatePost(
+	ctx context.Context,
+	client *mongo.Client,
+	id primitive.ObjectID,
+	newTitle string) (int64, error) {
+	filter := bson.D{{"_id", id}}
+	update := bson.D{
+		{"$set", bson.D{
+			{"title", newTitle},
+		}},
+	}
+	collection := client.Database("my_db").Collection("posts")
+	updateResult, err := collection.UpdateOne(context.TODO(), filter, update)
+	if err != nil {
+		return 0, err
+	}
+	return updateResult.ModifiedCount, nil
+}
+
 func TestPost(t *testing.T) {
 	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))
 	if err != nil {
@@ -75,4 +104,59 @@ func TestPost(t *testing.T) {
 		t.Errorf("Unable to retrieve post: <%v>", err)
 	}
 	log.Printf("Successfully retrieved post with title: '%s'", post.Title)
+
+	updated, err := UpdatePost(ctx, client, id, "Hello")
+	if err != nil {
+		t.Errorf("Unable to update post: <%v>", err)
+	}
+	if updated != 1 {
+		t.Errorf("Wrong number of posts updated: %d", updated)
+	}
+	post, _ = GetPost(ctx, client, id)
+	log.Printf("Successfully updated title to: '%s'", post.Title)
+
+	deleted, err := DeletePost(ctx, client, id)
+	if err != nil {
+		t.Errorf("Unable to delete post: <%v>", err)
+	}
+	log.Printf("Removed %d records", deleted.DeletedCount)
+
+	post, err = GetPost(ctx, client, id)
+	if err != nil {
+		log.Println(err.Error())
+		if strings.Contains(err.Error(), "mongo: no documents") {
+			return
+		} else {
+			t.Errorf("Failed to detect missing element:<%v>", err)
+		}
+	}
+	t.Errorf("Retrieved false record from search")
+
+}
+
+func TestDBCreationAndUse(t *testing.T) {
+	db, err := OpenDB("my_db", "posts")
+	if err != nil {
+		t.Errorf("Unable to open DB: <%v>", err)
+	}
+	err = Connect(db)
+	if err != nil {
+		t.Errorf("Unable to connect to database %s.%s:<%v>", db.database, db.coll, err)
+	}
+	defer Disconnect(db)
+
+	_, err = db.Collection.InsertOne(db.Ctx, Post{"Hello", "Goodbye"})
+	if err != nil {
+		t.Errorf("Unable to insert into database:<%v>", err)
+	}
+	filter := bson.D{{"title", "Hello"}}
+	var post Post
+	err = db.Collection.FindOne(context.TODO(), filter).Decode(&post)
+	if err != nil {
+		t.Errorf("Unable to retrieve post from database:<%v>", err)
+	}
+	if post.Title != "Hello" {
+		t.Errorf("Retrieved wrong post!")
+	}
+	log.Printf("Successfully inserted and retrieved post")
 }
